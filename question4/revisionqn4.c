@@ -40,7 +40,7 @@ int main()
             tax_payable = (10.0 / 100) * gross_pay;
             printf("\nTax payable = %lf", tax_payable);
         }
-        else if (gross_pay > 20000)
+        else 
         {
             tax_payable = (25.0 / 100) * gross_pay;
             printf("\nTax payable = %lf", tax_payable);
