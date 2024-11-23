@@ -44,5 +44,9 @@ int main() {
         printf("Enter Y to continue to add another student and N to stop the progress: ");
         scanf("%c", &choice);
     }
+
+     while (choice == 'Y');
+     printf("Program has been stopped successfully!\n");
+
     return 0;
 }
