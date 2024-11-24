@@ -8,7 +8,7 @@ int main()
     scanf("%d",&n);
     while(counter <= n){
 
-        printf("Enter your credit limit\n");
+        printf("Please enter your credit limit\n");
         scanf("%d",&credit_limit);
 
         printf("Enter price:\n");
