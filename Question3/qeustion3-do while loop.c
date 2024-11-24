@@ -14,7 +14,7 @@ int main ()
 
         printf("enter price of the item :\n");
         scanf("%d", &price);
-        
+
         do
         {
                     printf("enter the quantity :\n");
@@ -27,5 +27,3 @@ int main ()
                     }
 
         }
-    }
-}
